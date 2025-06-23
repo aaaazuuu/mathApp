@@ -58,7 +58,7 @@ const Practice1_for_Rina = () => {
                 </p>
                 <BankList bankList={bankList}/>
                 <p>貯金残高：¥{totalBank}</p>
-                <p>残高：¥{totalPay - totalBank}</p>
+                <p>残高：¥{totalBank - totalPay}</p>
         </div>
     )
 }
