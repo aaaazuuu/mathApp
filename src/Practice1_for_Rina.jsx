@@ -1,4 +1,4 @@
-import React, {Fragment, useState, useRef} from 'react';
+import React, {useState, useRef} from 'react';
 import PayList from "./components/PayList.jsx";
 import BankList from "./components/BankList.jsx";
 import './assets/style.css'; // CSSファイルをインポート
